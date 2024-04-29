@@ -9,8 +9,8 @@ font-family: verdana;
 
 .container {
 position: relative;
-left: 35em;
-top: 30em;
+left: 20%;
+top: 40%;
 height: 75px;
 width: 800px;
 border: 0px solid black;
@@ -29,20 +29,24 @@ transform: rotate(360deg);
 
 @keyframes box {
 0% {
-transform: translateX(150em);	
+transform: translateX(100em);	
 }
 
 25% {
-transform: translateX(-150em);
+transform: translateX(-100em);
+}
+
+50% {
+transform: translateX(0em);
+transform: translateY(-100em);
 }
 
 75% {
-transform: translateX(0em);
-transform: translateY(-150em);
+transform: translateX(0px);
 }
 
 100% {
-transform: translateY(150em);
+transform: translateY(100em);
 }
 }
 </style>
