@@ -1,16 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./andrei.css" src="andrei.css">
-    <title>Andrei ANO NA</title>
-    <link rel="icon" href="./andrei.jpg" type="andrei.jpg">
-  </head>
+<html>
+<style>
+h1 {
+text-align: center;
+animation: andrei 0.1s ease 1s infinite;
+font-size: 50px;
+font-family: verdana;
+}
+
+.container {
+position: relative;
+left: 35em;
+top: 30em;
+height: 75px;
+width: 800px;
+border: 0px solid black;
+animation: box 5s ease 1s infinite;
+}
+
+@keyframes andrei {
+0% {
+transform: rotate(0deg);	
+}
+
+100% {
+transform: rotate(360deg);
+}
+}
+
+@keyframes box {
+0% {
+transform: translateX(150em);	
+}
+
+25% {
+transform: translateX(-150em);
+}
+
+75% {
+transform: translateX(0em);
+transform: translateY(-150em);
+}
+
+100% {
+transform: translateY(150em);
+}
+}
+</style>
 <body>
-<div>
-<h1>ANDREI GUMAWA KA NA NG RESEARCH</h1>
+<div class="container">
+<h1>ANDREI CRESCENCIO</h1>
 </div>
 </body>
 </html>
